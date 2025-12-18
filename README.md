@@ -84,7 +84,7 @@ curl -X POST http://localhost:8000/v1/messages \
 
 1. 克隆仓库
 ```bash
-git clone https://github.com/MamoCode/AmazonQ
+git clone https://github.com/MamoWorks/AmazonQ
 cd AmazonQ
 ```
 
@@ -118,7 +118,7 @@ docker run -d \
   --name amazonq-proxy \
   -p 8000:8000 \
   --env-file .env \
-  ghcr.io/mamocode/amazonq:latest
+  ghcr.io/mamoworks/amazonq:latest
 ```
 
 2. 查看日志
